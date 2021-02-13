@@ -58,7 +58,6 @@ const pAequorFactory = (number, dnaArray) => {
     },
     // Determine if the subject is likely to survive
     willLikelySurvive() {
-      const dnaTotal = 15;
       let winningDNA = 0;
       // pAequor is more like to survive if it's DNA is at least 60% C or G
       for (x in this.dna) {
